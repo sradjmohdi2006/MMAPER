@@ -31,7 +31,6 @@ The application, the data model, the seven test suites and the technical report 
 - [Saving projects](#saving-projects)
 - [Exporting](#exporting)
 - [Architecture](#architecture)
-- [Project file layout](#project-file-layout)
 - [Tests](#tests)
 - [Performance notes](#performance-notes)
 - [Accessibility](#accessibility)
@@ -459,7 +458,7 @@ MMAPER/
 | Module | Responsibility |
 | --- | --- |
 | `data_model.py` | `Layer`, `Feature`, `MapLayer`, `TerrainLayer`, `SpatialAnalysisEngine`; template engine; `.agis` save/load; PROJ/GDAL environment setup |
-| `main.py` | `MainFrame`, `MapCanvasPanel` and ~30 dialogs; all menus, shortcuts and event handlers |
+| `main.py` | `MainFrame`, `MapCanvasPanel` and 23 dialogs; all menus, shortcuts and event handlers |
 
 ### Class hierarchy
 
