@@ -1,0 +1,17 @@
+# Normalise text files, keep binary assets untouched.
+* text=auto
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.txt   text eol=lf
+*.bat   text eol=crlf
+
+*.pdf   binary
+*.tif   binary
+*.tiff  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.db    binary
